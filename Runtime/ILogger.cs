@@ -4,11 +4,12 @@ namespace MK.Log
 
     public interface ILogger
     {
-        string Name { get; }
-        void   Info(object     message);
-        void   Warn(object     message);
-        void   Error(object    message);
-        void   Fatal(object    message);
-        void   Fatal(Exception exception);
+        internal string Prefix { get; set; }
+
+        void Info(object     message);
+        void Warn(object     message);
+        void Error(object    message);
+        void Fatal(object    message);
+        void Fatal(Exception exception);
     }
 }
