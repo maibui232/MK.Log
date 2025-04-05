@@ -1,0 +1,7 @@
+{
+  "name": "MK.Log",
+  "rootNamespace": "MK.Log",
+  "references": [
+    "VContainer"
+  ]
+}
