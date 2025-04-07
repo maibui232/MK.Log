@@ -36,7 +36,7 @@ namespace MK.Log
 
         ILogger ILoggerManager.GetDefaultLogger()
         {
-            throw new NotImplementedException();
+            return ((ILoggerManager)this).GetLogger("MK-Log");
         }
     }
 }
