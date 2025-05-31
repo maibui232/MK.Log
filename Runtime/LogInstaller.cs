@@ -1,4 +1,4 @@
-namespace MK.Log.DI
+namespace MK.Log
 {
     using MK.DependencyInjection;
 
@@ -6,7 +6,7 @@ namespace MK.Log.DI
     {
         public static void InstallLog(this IBuilder builder)
         {
-            builder.Register<ILoggerManager>(Lifetime.Singleton).AsImplementedInterfaces();
+            builder.Register<LoggerManager>(Lifetime.Singleton).AsImplementedInterfaces();
         }
     }
 }

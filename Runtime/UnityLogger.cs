@@ -3,7 +3,7 @@ namespace MK.Log
     using System;
     using UnityEngine;
 
-    public class UnityLogger : ILogger
+    internal class UnityLogger : ILogger
     {
         private string prefix;
 

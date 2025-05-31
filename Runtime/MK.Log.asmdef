@@ -2,6 +2,6 @@
   "name": "MK.Log",
   "rootNamespace": "MK.Log",
   "references": [
-    "VContainer"
+    "MK.DependencyInjection"
   ]
 }

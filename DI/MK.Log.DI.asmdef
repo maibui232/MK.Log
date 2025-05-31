@@ -1,8 +1,0 @@
-{
-  "name": "MK.Log.DI",
-  "rootNamespace": "MK.Log.DI",
-  "references": [
-    "MK.DependencyInjection",
-    "MK.Log"
-  ]
-}
