@@ -2,6 +2,7 @@
   "name": "MK.Log",
   "rootNamespace": "MK.Log",
   "references": [
-    "MK.DependencyInjection"
+    "MK.DependencyInjection",
+    "MK.Kernel"
   ]
 }
